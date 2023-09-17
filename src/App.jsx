@@ -1,10 +1,13 @@
 import './App.css'
+import Navbar from './components/Navbar'
+import GlobalStyle from './GlobalStyle'
 
 
 function App() {
   return (
     <>
-      <h1>STARTIIINNN NEW PROJJECTTT YOO</h1>
+      <GlobalStyle />
+        <Navbar />
     </>
   )
 }
