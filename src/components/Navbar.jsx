@@ -37,6 +37,15 @@ const MenuBars = styled(FaBars)`
 
     @media screen and (max-width: 768px) {
         display: block;
+        background-image: url(${FaBars});
+        background-size: contain;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-50%, 25%)
     }
 `
 
